@@ -1,0 +1,15 @@
+int[] sayilar = {12,11,22,2,3,7};
+		
+int buyukSayi = 0;
+
+for (int i = 0; i < sayilar.length; i++) {
+	
+	if(sayilar[i] > buyukSayi || sayilar[i] == buyukSayi) {
+		
+		buyukSayi = sayilar[i];
+		
+		
+	}
+}
+
+System.out.println(buyukSayi);
